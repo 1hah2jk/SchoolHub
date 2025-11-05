@@ -459,13 +459,13 @@ SMK Al-Hadiid 1 Cileungsi, sebelumnya bernama STM AL-HADIID Cileungsi, didirikan
       <img alt="Kegiatan ekstrakurikuler seni dan olahraga anak-anak sedang menari dan bermain bola di lapangan sekolah" class="w-full object-cover h-48" height="300" src="market.jpeg" width="600"/>
       <div class="p-6">
        <h3 class="text-xl font-bold text-blue-700 mb-2">
-        🛍MARKET DAY VOL.5 🛍
+        🛍️MARKET DAY VOL.5 🛍️
        </h3>
        <p class="text-blue-700 font-medium text-sm mb-3">
         24 Oktober 2025
        </p>
        <p class="text-blue-700 text-sm">
-        Nggak kerasa bentar lagi Market Day Vol.5 bakal dilaksanain nih! 🛍
+        Nggak kerasa bentar lagi Market Day Vol.5 bakal dilaksanain nih! 🛍️
         Siap-siap buat seru-seruan bareng, jajan enak, dan liat hasil karya keren teman-teman kamu! 🍰🥤
        </p>
       </div>
@@ -687,15 +687,15 @@ SMK Al-Hadiid 1 Cileungsi, sebelumnya bernama STM AL-HADIID Cileungsi, didirikan
       },
       {
         text: "Ikhlaslah belajar. Bahkan yang paling berilmu dan bijak di antara kita masih rajin belajar.",
-        author: "Mario Teguh",
+        author: "Mario Teguh",
       },
       {
         text: "Seorang terpelajar harus sudah berbuat adil sejak dalam pikiran apalagi dalam perbuatan.",
-        author: "Pramoedya Ananta Toer",
+        author: "Pramoedya Ananta Toer",
       },
       {
         text: "Hanya pendidikan yang bisa menyelamatkan masa depan, tanpa pendidikan Indonesia tak mungkin bertahan.",
-        author: "Najwa Shihab",
+        author: "Najwa Shihab",
       },
     ];
 
@@ -706,8 +706,8 @@ SMK Al-Hadiid 1 Cileungsi, sebelumnya bernama STM AL-HADIID Cileungsi, didirikan
     function displayRandomQuote() {
       const randomIndex = Math.floor(Math.random() * quotes.length);
       const quote = quotes[randomIndex];
-      motivationQuote.textContent = "${quote.text}";
-      motivationAuthor.textContent = "-${quote.author}";
+      motivationQuote.textContent = `"${quote.text}"`;
+      motivationAuthor.textContent = `- ${quote.author}`;
     }
 
     newQuoteBtn.addEventListener('click', displayRandomQuote);
