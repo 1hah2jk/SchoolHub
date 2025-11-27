@@ -613,8 +613,8 @@ SMK Al-Hadiid 1 Cileungsi, sebelumnya bernama STM AL-HADIID Cileungsi, didirikan
         // Simple simulated AI response based on keywords
         let response = "Terima kasih telah berbagi. Berikut beberapa saran untuk Anda:\n\n";
 
-        if (/stres|stress|tekanan|cemas|khawatir/i.test(userInput)) {
-          response += "- Cobalah teknik pernapasan dalam untuk menenangkan diri.\n- Jangan ragu untuk berbicara dengan guru atau teman dekat.\n- Atur jadwal belajar agar tidak terlalu padat.";
+        if (/jadwal Baju Setiap Hari/i.test(userInput)) {
+          response += "- Hari Senin dan Kamis: Biru Abu.\n- Hari Selasa dan Jumat: Gamis Bebas syar'i.\n- Hari Rabu: Pink/Ungu.";
         } else if (/motivasi|semangat|putus asa|malas/i.test(userInput)) {
           response += "- Ingat tujuan dan impian Anda.\n- Mulailah dengan langkah kecil setiap hari.\n- Cari inspirasi dari kisah sukses orang lain.";
         } else if (/karir|masa depan|pekerjaan|jurusan/i.test(userInput)) {
